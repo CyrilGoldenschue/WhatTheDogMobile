@@ -22,4 +22,12 @@
         android:name="com.example.wtdmobile.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+
+    <fragment
+        android:id="@+id/clientList"
+        android:name="com.example.wtdmobile.ui.clientlist.clientlist"
+        android:label="Client"
+        tools:layout="@layout/fragment_clientlist" />
+
 </navigation>
