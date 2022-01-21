@@ -12,6 +12,7 @@
     <string name="title_services">Services</string>
 
     <string name="menu_home">Home</string>
+    <string name="menu_home_customer">Home_C</string>
     <string name="menu_test">Test</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
