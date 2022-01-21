@@ -336,3 +336,6 @@ $RECYCLE.BIN
 
 # End of httpswww.gitignore.ioapijava,linux,macos,windows,android,intellij,androidstudio
 WTDMobile/app/build.gradle
+WTDMobile/.idea/codeStyles/Project.xml
+WTDMobile/.idea/codeStyles/codeStyleConfig.xml
+WTDMobile/app/build.gradle
