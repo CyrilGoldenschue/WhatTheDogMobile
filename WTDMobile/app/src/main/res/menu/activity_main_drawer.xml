@@ -21,5 +21,10 @@
             android:id="@+id/doggo"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Doggo" />
+
+        <item
+            android:id="@+id/contact_me"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="ContactMe" />
     </group>
 </menu>
