@@ -117,4 +117,6 @@
     <string name="city">Ville</string>
     <string name="npa">NPA</string>
     <string name="signUp">S\'inscrire</string>
+    <string name="rabais">Rabais</string>
+    <string name="cr_ation">Création</string>
 </resources>

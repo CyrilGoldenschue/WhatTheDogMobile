@@ -12,8 +12,11 @@
             android:id="@+id/clientList"
             android:title="ClientList" />
         <item
-            android:id="@+id/sign_up"
+            android:id="@+id/SignUp"
             android:title="Sign Up" />
+        <item
+            android:id="@+id/Register"
+            android:title="Register" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
