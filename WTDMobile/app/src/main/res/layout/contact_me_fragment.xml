@@ -107,11 +107,15 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="285dp"
-        android:layout_height="331dp"
+        android:layout_width="171dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="86dp"
         android:src="@drawable/contact_doggo"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="434dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
