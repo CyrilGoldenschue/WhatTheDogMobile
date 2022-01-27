@@ -12,16 +12,10 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_signup"
+        android:id="@+id/sign_up"
         android:name="com.example.wtdmobile.ui.signup.SignUp"
         android:label="Sign up"
         tools:layout="@layout/fragment_signup" />
-
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.wtdmobile.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
 
 
     <fragment
