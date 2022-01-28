@@ -95,8 +95,7 @@
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/lobster_two"
                 android:text="De"
-                android:textSize="26sp"
-                android:textStyle="bold" />
+                android:textSize="26sp" />
 
             <TextView
                 android:id="@+id/txt_de2"
@@ -105,9 +104,32 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/lobster_two"
+                android:text="12h"
+                android:textSize="26sp"
+                app:layout_column="1"
+                app:layout_row="0" />
+
+            <TextView
+                android:id="@+id/txt_de3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/lobster_two"
+                android:text="12h"
+                android:textSize="26sp"
+                app:layout_column="3"
+                app:layout_row="0" />
+
+            <TextView
+                android:id="@+id/txt_de4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/lobster_two"
                 android:text="à"
                 android:textSize="26sp"
-                android:textStyle="bold"
                 app:layout_column="2"
                 app:layout_row="0" />
 
@@ -119,17 +141,86 @@
                 android:layout_marginEnd="16dp"
                 android:background="@color/white"
                 android:contentDescription="Edit Button"
-                app:layout_column="3"
+                app:layout_column="5"
                 app:layout_row="0"
                 tools:ignore="SpeakableTextPresentCheck"
                 tools:src="@drawable/baseline_edit_24" />
+
         </androidx.gridlayout.widget.GridLayout>
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <androidx.gridlayout.widget.GridLayout
             android:layout_width="match_parent"
-            android:layout_height="921dp">
+            android:layout_height="match_parent">
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:id="@+id/txt_de"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/lobster_two"
+                android:text="De"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/txt_de2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/lobster_two"
+                android:text="12h"
+                android:textSize="26sp"
+                app:layout_column="1"
+                app:layout_row="0" />
+
+            <TextView
+                android:id="@+id/txt_de3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/lobster_two"
+                android:text="12h"
+                android:textSize="26sp"
+                app:layout_column="3"
+                app:layout_row="0" />
+
+            <TextView
+                android:id="@+id/txt_de4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/lobster_two"
+                android:text="à"
+                android:textSize="26sp"
+                app:layout_column="2"
+                app:layout_row="0" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="16dp"
+                android:background="@color/white"
+                android:contentDescription="Edit Button"
+                app:layout_column="5"
+                app:layout_row="0"
+                tools:ignore="SpeakableTextPresentCheck"
+                tools:src="@drawable/baseline_edit_24" />
+
+        </androidx.gridlayout.widget.GridLayout>
+
+        <Button
+            android:id="@+id/btn_race2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Enregistrer" />
     </LinearLayout>
 
 </FrameLayout>
