@@ -9,6 +9,9 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home" />
         <item
+            android:id="@+id/Planning"
+            android:title="Planning" />
+        <item
             android:id="@+id/clientList"
             android:title="ClientList" />
         <item
