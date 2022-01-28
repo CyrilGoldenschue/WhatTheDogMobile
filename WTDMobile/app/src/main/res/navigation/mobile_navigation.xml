@@ -35,11 +35,27 @@
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 
-
     <fragment
         android:id="@+id/clientList"
         android:name="com.example.wtdmobile.ui.clientlist.clientlist"
         android:label="Client"
         tools:layout="@layout/fragment_clientlist" />
 
+    <fragment
+        android:id="@+id/doggo"
+        android:name="com.example.wtdmobile.dogProfile"
+        android:label="Doggo"
+        tools:layout="@layout/dog_profile_fragment" />
+
+    <fragment
+        android:id="@+id/contact_me"
+        android:name="com.example.wtdmobile.ContactMe"
+        android:label="Contact Me"
+        tools:layout="@layout/contact_me_fragment" />
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.wtdmobile.profile"
+        android:label="Profile"
+        tools:layout="@layout/profile_fragment" />
 </navigation>
