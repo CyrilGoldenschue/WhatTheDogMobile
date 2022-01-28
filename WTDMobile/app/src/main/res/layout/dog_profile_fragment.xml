@@ -9,7 +9,7 @@
 
     <ScrollView
         android:layout_width="0dp"
-        android:layout_height="922dp"
+        android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -73,7 +73,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/merriweather_sans_light"
-                android:text="TextView"
+                android:text="Labrador"
                 android:textAlignment="center"
                 android:textSize="20sp"
                 tools:text="Labrador" />
@@ -114,7 +114,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/merriweather_sans_light"
-                android:text="TextView"
+                android:text="Male"
                 android:textAlignment="center"
                 android:textSize="20sp"
                 tools:text="Male" />
@@ -215,7 +215,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/merriweather_sans_light"
-                android:text="TextView"
+                android:text="Dépression"
                 android:textAlignment="center"
                 android:textSize="20sp"
                 tools:text="Dépression" />
@@ -229,11 +229,6 @@
                 android:layout_marginEnd="16dp"
                 android:text="Enregistrer" />
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="921dp">
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
         </LinearLayout>
     </ScrollView>
 
