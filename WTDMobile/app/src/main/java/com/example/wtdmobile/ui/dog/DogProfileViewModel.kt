@@ -1,4 +1,4 @@
-package com.example.wtdmobile
+package com.example.wtdmobile.ui.dog
 
 import androidx.lifecycle.ViewModel
 

@@ -14,6 +14,8 @@
     <string name="menu_home">Home</string>
     <string name="menu_home_customer">Home_C</string>
     <string name="menu_home_admin">Home_A</string>
+    <string name="menu_service_customer">Service_C</string>
+    <string name="menu_service_admin">Service_A</string>
     <string name="menu_test">Test</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
@@ -128,4 +130,10 @@
     <string name="signUp">S\'inscrire</string>
     <string name="rabais">Rabais</string>
     <string name="cr_ation">Création</string>
+    <string-array name="canevas_select">
+        <item>"Canevas 1"</item>
+        <item>"Canevas 2"</item>
+        <item>"Canevas 3"</item>
+        <item>"Canevas 4"</item>
+    </string-array>
 </resources>

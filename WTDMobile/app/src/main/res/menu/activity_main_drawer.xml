@@ -9,6 +9,9 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home" />
         <item
+            android:id="@+id/Planning"
+            android:title="Planning" />
+        <item
             android:id="@+id/clientList"
             android:title="ClientList" />
         <item
@@ -19,6 +22,14 @@
             android:id="@+id/home_admin"
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menu_home_admin" />
+        <item
+            android:id="@+id/service_customer"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_service_customer" />
+        <item
+            android:id="@+id/service_admin"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_service_admin" />
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
