@@ -14,6 +14,8 @@
     <string name="menu_home">Home</string>
     <string name="menu_home_customer">Home_C</string>
     <string name="menu_home_admin">Home_A</string>
+    <string name="menu_service_customer">Service_C</string>
+    <string name="menu_service_admin">Service_A</string>
     <string name="menu_test">Test</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
@@ -128,4 +130,23 @@
     <string name="signUp">S\'inscrire</string>
     <string name="rabais">Rabais</string>
     <string name="cr_ation">Création</string>
+
+    <string-array name="service_array">
+        <item>Choix du service</item>
+        <item>Coaching en comportement</item>
+        <item>Cours d'éducation privés</item>
+        <item>Conseils personnalisés</item>
+        <item>Accompagnement face à la peur des chiens</item>
+        <item>Aide lors d’une nouvelle arrivée</item>
+    </string-array>
+
+    <string-array name="disponibility_array">
+        <item>Lundi 6 décembre -> 14h</item>
+        <item>Mardi 7 décembre -> 9h</item>
+        <item>Jeudi 9 décembre -> 23h</item>
+        <item>Samedi 11 décembre -> 18h39</item>
+    </string-array>
+
+
+
 </resources>
