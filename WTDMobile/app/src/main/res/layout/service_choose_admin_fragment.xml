@@ -76,14 +76,14 @@
             android:id="@+id/textView30"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="44dp"
+            android:layout_marginTop="16dp"
             android:fontFamily="@font/merriweather_sans_light"
             android:text="Prix total :"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.197"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+            app:layout_constraintTop_toBottomOf="@+id/spinner" />
 
         <Button
             android:id="@+id/button7"
@@ -122,8 +122,8 @@
 
         <Spinner
             android:id="@+id/spinner2"
-            android:layout_width="342dp"
-            android:layout_height="59dp"
+            android:layout_width="276dp"
+            android:layout_height="64dp"
             android:layout_marginTop="24dp"
             android:entries="@array/service_array"
             android:spinnerMode="dropdown"
@@ -131,6 +131,18 @@
             app:layout_constraintHorizontal_bias="0.492"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="275dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="16dp"
+            android:entries="@array/disponibility_array"
+            android:spinnerMode="dropdown"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.448"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
