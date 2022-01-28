@@ -130,9 +130,10 @@
     <string name="signUp">S\'inscrire</string>
     <string name="rabais">Rabais</string>
     <string name="cr_ation">Création</string>
-
-
-
-
-
+    <string-array name="canevas_select">
+        <item>"Canevas 1"</item>
+        <item>"Canevas 2"</item>
+        <item>"Canevas 3"</item>
+        <item>"Canevas 4"</item>
+    </string-array>
 </resources>
