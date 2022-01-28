@@ -14,7 +14,7 @@
     <string name="menu_home">Home</string>
     <string name="menu_home_customer">Home_C</string>
     <string name="menu_home_admin">Home_A</string>
-    <string name="menu_service_customer">Service_C</string>
+    <string name="menu_service_customer">Service</string>
     <string name="menu_service_admin">Service_A</string>
     <string name="menu_test">Test</string>
     <string name="menu_gallery">Gallery</string>
