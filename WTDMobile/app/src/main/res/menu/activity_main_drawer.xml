@@ -27,5 +27,20 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
+
+        <item
+            android:id="@+id/doggo"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Doggo" />
+
+        <item
+            android:id="@+id/contact_me"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="ContactMe" />
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Profile" />
     </group>
 </menu>
