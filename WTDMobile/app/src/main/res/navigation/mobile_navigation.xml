@@ -24,6 +24,18 @@
         tools:layout="@layout/home_admin_fragment" />
 
     <fragment
+        android:id="@+id/service_customer"
+        android:name="com.example.wtdmobile.ui.serviceCustomer.ServiceChooseCustomer"
+        android:label="@string/menu_service_customer"
+        tools:layout="@layout/service_choose_customer_fragment" />
+
+    <fragment
+        android:id="@+id/service_admin"
+        android:name="com.example.wtdmobile.ui.serviceAdmin.ServiceChooseAdmin"
+        android:label="@string/menu_service_admin"
+        tools:layout="@layout/service_choose_admin_fragment" />
+
+    <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.wtdmobile.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"

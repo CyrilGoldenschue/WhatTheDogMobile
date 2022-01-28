@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="service_array">
+        <item>"Choix du service"</item>
+        <item>"Coaching en comportement"</item>
+        <item>"Cours d'éducation privés"</item>
+        <item>"Conseils personnalisés"</item>
+        <item>"Accompagnement face à la peur des chiens"</item>
+        <item>"Aide lors d’une nouvelle arrivée"</item>
+    </string-array>
+
+    <string-array name="disponibility_array">
+        <item>"Choix d'une date de réservation"</item>
+        <item>"Lundi 6 décembre -> 14h"</item>
+        <item>"Mardi 7 décembre -> 9h"</item>
+        <item>"Jeudi 9 décembre -> 23h"</item>
+        <item>"Samedi 11 décembre -> 18h39"</item>
+    </string-array>
+</resources>
