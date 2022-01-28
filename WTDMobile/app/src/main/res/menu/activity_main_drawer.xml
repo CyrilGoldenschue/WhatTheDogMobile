@@ -26,5 +26,10 @@
             android:id="@+id/contact_me"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="ContactMe" />
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Profile" />
     </group>
 </menu>
