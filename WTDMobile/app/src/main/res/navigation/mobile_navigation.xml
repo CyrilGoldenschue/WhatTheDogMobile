@@ -58,4 +58,10 @@
         android:name="com.example.wtdmobile.profile"
         android:label="Profile"
         tools:layout="@layout/profile_fragment" />
+
+    <fragment
+        android:id="@+id/create_canvas"
+        android:name="com.example.wtdmobile.create_canevas"
+        android:label="CreateCanvas"
+        tools:layout="@layout/create_canevas_fragment" />
 </navigation>

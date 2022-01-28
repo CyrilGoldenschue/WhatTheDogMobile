@@ -42,5 +42,10 @@
             android:id="@+id/profile"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="Profile" />
+
+        <item
+            android:id="@+id/create_canvas"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Create Canvas" />
     </group>
 </menu>
