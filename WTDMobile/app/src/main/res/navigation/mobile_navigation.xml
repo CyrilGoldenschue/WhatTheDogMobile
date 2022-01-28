@@ -61,19 +61,19 @@
 
     <fragment
         android:id="@+id/doggo"
-        android:name="com.example.wtdmobile.dogProfile"
+        android:name="com.example.wtdmobile.ui.dog.dogProfile"
         android:label="Doggo"
         tools:layout="@layout/dog_profile_fragment" />
 
     <fragment
         android:id="@+id/contact_me"
-        android:name="com.example.wtdmobile.ContactMe"
+        android:name="com.example.wtdmobile.ui.contact.ContactMe"
         android:label="Contact Me"
         tools:layout="@layout/contact_me_fragment" />
 
     <fragment
         android:id="@+id/profile"
-        android:name="com.example.wtdmobile.profile"
+        android:name="com.example.wtdmobile.ui.profile.profile"
         android:label="Profile"
         tools:layout="@layout/profile_fragment" />
 </navigation>

@@ -1,4 +1,4 @@
-package com.example.wtdmobile
+package com.example.wtdmobile.ui.contact
 
 import androidx.lifecycle.ViewModel
 
